@@ -16,7 +16,6 @@ export default (props) => {
         }
       },
       onSignIn: () => {
-        console.log('Auth Sign In....')
         props.onSignIn();
       }
     });
